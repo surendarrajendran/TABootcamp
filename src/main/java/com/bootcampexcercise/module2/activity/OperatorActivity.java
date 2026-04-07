@@ -3,12 +3,16 @@ package com.bootcampexcercise.module2.activity;
 public class OperatorActivity {
     public static void main(String[] args) {
 
-        // Input integers
+        // Variable to store first integer value
         int x = 10;
+
+        // Variable to store second integer value
         int y = 20;
 
-        int sum = x + y; // sum up input
+        // Variable to store the result of addition
+        int sum = x + y;
 
-        System.out.println("Sum: " + sum); // print the result
+        // Printing the result to the console
+        System.out.println("Sum: " + sum);
     }
 }

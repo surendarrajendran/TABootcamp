@@ -19,8 +19,5 @@ public class FindLargest {
 
         // Print result
         System.out.println("Largest Number is: " + large);
-
-
-        // using
     }
 }

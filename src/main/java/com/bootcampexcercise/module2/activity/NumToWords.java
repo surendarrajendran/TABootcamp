@@ -4,10 +4,14 @@ public class NumToWords {
 
     public static void main(String[] args) {
 
-        // Call the method
-        switchCaseEx(5);   // Calling function with 5 as parameter
-        switchCaseEx(100); // variation to execute default statement
-        switchCaseEx(1);   // Calling function with 1 as parameter
+        // Calling method with valid input
+        switchCaseEx(5);
+
+        // Calling method with invalid input to trigger default case
+        switchCaseEx(100);
+
+        // Calling method with another valid input
+        switchCaseEx(1);
     }
 
     public static void switchCaseEx(int number) {
