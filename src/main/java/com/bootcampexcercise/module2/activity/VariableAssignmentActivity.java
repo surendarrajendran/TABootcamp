@@ -1,14 +1,7 @@
 package com.bootcampexcercise.module2.activity;
 
 public class VariableAssignmentActivity {
-
-    /**
-     * Class Name: VariableAssignmentActivity
-     * Description:
-     * This class demonstrates variable declaration, initialization,
-     * updating its value, and printing the updated value.
-     */
-
+    
     public static void main(String[] args) {
 
         // Variable to store an integer value (initialized with default value 0)
