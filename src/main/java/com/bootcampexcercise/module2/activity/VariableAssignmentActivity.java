@@ -1,7 +1,7 @@
 package com.bootcampexcercise.module2.activity;
 
 public class VariableAssignmentActivity {
-    
+
     public static void main(String[] args) {
 
         // Variable to store an integer value (initialized with default value 0)
