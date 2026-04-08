@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module2.activity;
+package com.bootcampexercise.module2.activity;
 
 /**
  * Class Name: FindInArray
