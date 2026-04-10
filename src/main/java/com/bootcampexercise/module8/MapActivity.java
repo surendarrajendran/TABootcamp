@@ -38,3 +38,14 @@ public class MapActivity {
         }
     }
 }
+
+
+/*
+Output:
+
+Id: 1 Name: Surendar
+Id: 2 Name: Ilmars
+Id: 3 Name: Jana
+Id: 4 Name: Wajid
+
+ */
