@@ -54,4 +54,22 @@ public class Employee extends Person {
         System.out.println("My name is " + getName() + " and I am " + getAge() + " years old");
         System.out.println("I am work as " + jobTitle + " in " + company + " and my salary is " + salary);
     }
+
+    // static method to find highest paid employee
+    public static String getHighestPaidEmp(java.util.List<Employee> list) {
+
+        if (list == null || list.isEmpty()) {
+            return "No employees";
+        }
+
+        Employee highest = list.get(0);
+
+        for (Employee e : list) {
+            if (e.getSalary() > highest.getSalary()) {
+                highest = e;
+            }
+        }
+
+        return highest.getName();
+    }
 }
